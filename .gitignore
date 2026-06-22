@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Weights (trop lourds pour Git — hébergés sur HuggingFace)
+*.pth
+*.pt
+*.h5
+*.ckpt
+weights/
+
+# Data
+data/
+*.tar
+*.zip
+
+# Results
+results/
+logs/
+*.log
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Slurm
+*.slurm
+*.out
+*.err
